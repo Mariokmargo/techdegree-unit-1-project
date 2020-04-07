@@ -85,15 +85,16 @@ header .profile-image:hover {
   margin: 10px auto;
 } 
 .location {
-  background-color: #222;
-  color: yellow;
+  background-color: #f7f5f0;
+  color:#6633ff;
+
 }
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
   text-align: left;
-  background: rgb(104, 159, 223);
+  background:#6633ff;
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
@@ -119,6 +120,17 @@ ul.skills {
 .skills li:nth-child(odd) {
   background: #0399ff;
 }
+
+.Table{
+  margin: 30px;
+  padding: 20px 40px 40px;
+  text-align: left;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+  background-color: #6633ff;
+}
+
 
 footer {
   width: 100%;
@@ -148,7 +160,7 @@ a.social {
   width: 30px;
   height: 30px;
   background-size: 30px 30px;
-  opacity: .4;
+  opacity: .6;
   transition: all .5s;
 }
 a.twitter {
@@ -160,6 +172,21 @@ a.linkedin {
 a.github {
   background-image: url(images/github.svg);
 }
+
+a.spotify{
+background-image: url(images/spotify.png);
+}
+
+a.audible{
+  background-image: url(images/audible.svg);
+}
+
+a.article{
+text-transform: capitalize;
+color: rgba(102, 14, 102, 0.959);
+text-decoration: underline;
+}
+
 a.social:hover {
   opacity: 1;
 }

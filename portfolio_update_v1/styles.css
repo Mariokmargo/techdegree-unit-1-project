@@ -131,7 +131,7 @@ ul.skills {
   background-color: #6633ff;
 }
 .Table:hover{
- box-shadow:0 0 20px #bc13fe;;
+ box-shadow:0 0 20px #bc13fe;
 }
 
 footer {
@@ -228,6 +228,21 @@ a.social:hover {
 
   main p {
     line-height: 1.6em;
+  }
+
+  .gallery{
+    padding: 3em;
+   }
+
+  .pics{
+    border: 4px solid rgb(39, 225,250);
+    border-radius: 20px;
+    margin: 5px;
+    width: 200px;
+    height: 200px;
+  }
+  .pics:hover{
+    box-shadow:0 0 20px  #bc13fe ;
   }
 
   footer {
